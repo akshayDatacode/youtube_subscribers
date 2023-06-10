@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to DATABASE
-const password = "Lata@12345";
+const password = "Znmd@12345";
 const dbUrl =  "mongodb+srv://latamanwani:${password}@subscribers.v1keo1i.mongodb.net/subscribers?retryWrites=true&w=majority";
 mongoose
   .connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
